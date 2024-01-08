@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Login from "./Components/SignIn/Login.jsx"
-import SignUp from "./Components/SignUp/SignUp.jsx"
+import App from "./App"
 ReactDOM.render(<div>
-   <Login />
-   <SignUp />
+   
+   <App />
 </div>,document.getElementById("root"));
 
 
